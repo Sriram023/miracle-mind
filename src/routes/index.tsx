@@ -68,11 +68,12 @@ export const Route = createFileRoute("/")({
     ],
 
     links: [
-      {
-        rel: "canonical",
-        href: "/",
-      },
-    ],
+    {
+      rel: "icon",
+      type: "image/png",
+      href: "/src/assets/mir.png",
+    },
+  ],
 
     scripts: [
       {
